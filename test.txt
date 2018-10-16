@@ -1,1 +1,1 @@
-some text
+some text edit from ide
