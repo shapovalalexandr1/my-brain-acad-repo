@@ -125,8 +125,7 @@ public final class MathSequences {
      * @return arithmetic progression result.
      */
     public static int arithmeticProgression(int a, int q, int count) {
-        int result = a;
-        // TODO complete this. Calc Arithmetic Progression.
+        int result=a+(count-1)*q;
         return result;
     }
 
