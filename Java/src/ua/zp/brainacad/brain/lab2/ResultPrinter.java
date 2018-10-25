@@ -47,6 +47,9 @@ public final class ResultPrinter
         print(String.valueOf(value1), operator, String.valueOf(value2), String.valueOf(result));
     }
 
+    public static void print(Double value1, String operator, Double value2, Double result) {
+        print(String.valueOf(value1), operator, String.valueOf(value2), String.valueOf(result));
+    }
     /**
      * Displays the result of math expression on unary value to the console.
      *

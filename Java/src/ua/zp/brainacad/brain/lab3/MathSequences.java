@@ -46,7 +46,9 @@ public final class MathSequences {
     public static void printWithSkip(int skipValue, int ...values) {
         //TODO modify this method to complete the output of characters but skip the specified value.
         for(int a: values) {
-            System.out.print(a+" ");
+            if(a!=skipValue) {
+                System.out.print(a + " ");
+            }
         }
     }
 
@@ -59,7 +61,10 @@ public final class MathSequences {
     public static void printToValue(int interruptValue, int ...values) {
         //TODO modify this method to complete the output of characters upon reaching the specified interrupt parameter
         for(int a: values) {
+            if (a==interruptValue)
+                break;
             System.out.print(a+" ");
+
         }
     }
 

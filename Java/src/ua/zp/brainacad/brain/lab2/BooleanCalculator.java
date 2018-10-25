@@ -68,14 +68,16 @@ public class BooleanCalculator
 
 
     //TODO write JavaDoc
-    public int and() {
+
+    public int and( int a, int b) {
         //TODO implement this method.
-        return 0;
+
+        return a & b;
     }
 
     //TODO write JavaDoc
-    public int or() {
+    public int or(int a, int b) {
         //TODO implement this method.
-        return 0;
+        return a | b;
     }
 }
