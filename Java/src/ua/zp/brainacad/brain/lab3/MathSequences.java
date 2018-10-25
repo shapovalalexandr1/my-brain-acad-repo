@@ -29,9 +29,8 @@ public final class MathSequences {
      * @return multiply result.
      */
     public static int mul(int ...values) {
-        int result = 0;
+        int result = 1;
        // TODO  complete this.
-
         for(int a: values) {
             result *= a;
         }
