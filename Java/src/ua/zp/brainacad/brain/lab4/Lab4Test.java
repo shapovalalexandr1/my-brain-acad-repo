@@ -16,7 +16,7 @@ public class Lab4Test {
         int[] intArray= {2,4,6}; // TODO init and fill it's array with any values. Use {} syntax.
 
         // 1.2)
-        int[] intArrayCopy =Arrays.copyOf(intArray,intArray.length) ; // TODO copy "intArray". Use copyOf...
+        int[] intArrayCopy = Arrays.copyOf(intArray,intArray.length) ; // TODO copy "intArray". Use copyOf...
 
         // 1.3)
         // TODO sort "intArrayCopy", use Arrays sort.
@@ -47,7 +47,7 @@ public class Lab4Test {
         // TODO calc sum of all array elements and print result.
         int summ=0;
         for (int value: testArray) {
-            summ=summ+value;
+            summ += value;
         }
         System.out.print("Сумма элементов массива равна "+summ+"\n");
 
@@ -95,7 +95,14 @@ public class Lab4Test {
 
         //3.3
         // TODO calc sum of all array elements and print result.
+        int sumarr1=0;
 
+        for (int i=0;i<arr1.length;i++){
+            for (int j=0;j<arr1[i].length;j++){
+                sumarr1+=arr1[i][j];
+            }
+        }
+        System.out.print("Сумма элементов двумерного массива равна "+sumarr1+"\n");
 
         // PART 4*
 

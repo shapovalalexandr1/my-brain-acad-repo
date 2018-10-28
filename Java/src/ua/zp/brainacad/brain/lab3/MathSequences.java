@@ -74,8 +74,8 @@ public final class MathSequences {
      * @param name name of figure
      * @return sum result.
      */
-    public static int defineFigureTops(String name) { // TODO** create Enum and replace method parameter.
-        switch(name.toLowerCase()) {
+   /* public static int defineFigureTops(Figure) { // TODO** create Enum and replace method parameter.
+        switch(name) {
             case "triangle" :
                 return 3;
             case "square" :
@@ -88,7 +88,7 @@ public final class MathSequences {
                 System.out.println( "Unknown figure");
                 return -1;
         }
-    }
+    }*/
 
     /**
      * Calc factorial value.
