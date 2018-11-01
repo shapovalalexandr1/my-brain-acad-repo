@@ -13,6 +13,11 @@ public class LampNight {
         this.color = color;
         this.swich = swich;
     }
+    public void doSwich(){
+        if (swich=true){
+            swich=false;
+        }else swich=true;
+    }
 
     public double getConsumption() {
         return consumption;
@@ -20,5 +25,9 @@ public class LampNight {
 
     public String getColor() {
         return color;
+    }
+
+    public boolean isSwich() {
+        return swich;
     }
 }
