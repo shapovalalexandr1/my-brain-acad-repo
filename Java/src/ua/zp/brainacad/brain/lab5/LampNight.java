@@ -16,7 +16,10 @@ public class LampNight {
     public void doSwich(){
         if (swich=true){
             swich=false;
-        }else swich=true;
+            System.out.println("Лампа выключена");
+        }else {swich=true;
+            System.out.println("Лампа включена");
+        }
     }
 
     public double getConsumption() {
