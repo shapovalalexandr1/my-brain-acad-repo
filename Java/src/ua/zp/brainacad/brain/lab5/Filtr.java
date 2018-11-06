@@ -8,8 +8,10 @@ public class Filtr {
     private double consumption;
 
     public Filtr(double power, double consumption) {
+
         this.power = power;
         this.consumption = consumption;
+
     }
 
     public void clearWater(){

@@ -12,16 +12,14 @@ public class Aquarium {
     private double temp;
     private  Type type;
 
-    public Aquarium(double hight, double width, double depth, double vol) {
+    public Aquarium(double hight, double width, double depth) {
         this.hight = hight;
         this.width = width;
         this.depth = depth;
         this.vol = hight*width*depth ;
-
     }
 
     public void changeWater(){
-
     }
 
     public double getHight() {
