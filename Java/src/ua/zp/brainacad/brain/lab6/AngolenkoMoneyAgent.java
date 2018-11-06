@@ -34,6 +34,8 @@ public class AngolenkoMoneyAgent implements CurrencyConvertor {
                 double saleUsd2 = EUR_TO_UAH_OFFICIAL * EUR_CURRENCY_RATIO;
                 System.out.printf("Меняла! EUR: sale = %f, buy = %f", buyUsd2, saleUsd2);
                 System.out.println();
+                break;
+                default: System.out.println("Чебуреки за углом");
         }
     }
 }
