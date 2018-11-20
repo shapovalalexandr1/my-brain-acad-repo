@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
 package ua.zp.brainacad.brain.lab7.CoffeMachine;
 
 /**
@@ -10,9 +6,7 @@ package ua.zp.brainacad.brain.lab7.CoffeMachine;
 public class Main {
 
 
-<<<<<<< HEAD
     public static void main(String[] args) {
-
         Americano americano = new Americano();
         americano.addCoffee();
         americano.addWater(150, 95);
@@ -20,15 +14,5 @@ public class Main {
         Drink americano2 = new Americano();
         americano2.addSugar(5);
         ((Americano) americano2).addCoffee();
-        //Americano drink =new Drink();
-=======
-    public static void main(String[]args){
-
-        Americano americano=new Americano();
-
-                americano.addCoffee();
-                americano.addWater(150,95);
->>>>>>> origin/master
-
     }
 }
