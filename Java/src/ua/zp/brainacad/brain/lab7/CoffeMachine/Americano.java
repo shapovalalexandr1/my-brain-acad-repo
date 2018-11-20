@@ -12,8 +12,11 @@ public class Americano extends Drink {
 
     @Override
     public void addSugar(int sug) {
+
         System.out.println("add sugar in Americano " +sug);
-    }
+
+        System.out.println("add sugar " +sug*2);
+
 
     public void addWater(int kol, int temp) {
         System.out.println("add water "+kol+" ml temp "+temp+"C");
