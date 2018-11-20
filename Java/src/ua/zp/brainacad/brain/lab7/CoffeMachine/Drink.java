@@ -9,11 +9,11 @@ public class Drink {
     public String name;
 
     public void addWater(int kol) {
-        System.out.println("add water "+kol);
+        System.out.println("add water " + kol);
     }
 
     public void addSugar(int sug) {
-        System.out.println("add sugar " +sug);
+        System.out.println("add sugar " + sug);
     }
 
     @Override

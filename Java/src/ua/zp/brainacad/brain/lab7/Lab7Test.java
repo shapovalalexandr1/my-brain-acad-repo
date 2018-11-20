@@ -18,7 +18,7 @@ public class Lab7Test {
         Animal animal = new Cat();
         // TODO try to uncomment
         // Cat forceCat = new Animal(); // ERROR Incompatible types.
-        // ((Dog)animal).jump(); // ERROR ClassCastException
+        ((Dog)animal).jump(); // ERROR ClassCastException
         Dog dog = new Dog();
         animal.jump();
         dog.jump();

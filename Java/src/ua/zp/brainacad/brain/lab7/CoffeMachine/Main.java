@@ -6,12 +6,13 @@ package ua.zp.brainacad.brain.lab7.CoffeMachine;
 public class Main {
 
 
-    public static void main(String[]args){
+    public static void main(String[] args) {
+        Americano americano = new Americano();
+        americano.addCoffee();
+        americano.addWater(150, 95);
 
-        Americano americano=new Americano();
-
-                americano.addCoffee();
-                americano.addWater(150,95);
-
+        Drink americano2 = new Americano();
+        americano2.addSugar(5);
+        ((Americano) americano2).addCoffee();
     }
 }
